@@ -1,0 +1,746 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* nav style */
+nav{
+    width: 100vw;
+    height: 9vh;
+    border-top: 4px skyblue solid;
+    border-bottom: 4px skyblue solid;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+#navDiv1{
+    width: 40vw;
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clinicArt{
+    width: 17vw;
+    height: 9vh;
+    color: white;
+    letter-spacing: 3px;
+    word-spacing: 6px;
+    font-size: 30px;
+    background-color: skyblue;
+    border-radius: 100px 0px 100px 0px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#navDiv2{
+    width: 40vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#navDiv2>a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 20vw;
+    height: 8vh;
+    display: flex;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+#navDiv2>a:hover{
+    background-color: white;
+    border-radius: 0%;
+    height: 10vh;
+}
+
+/* header style */
+#header1{
+    width: 100vw;
+    height: 80vh;
+    background-image: url(./doctorHand.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+#empty{
+    width: 5vw;
+    height: 40vh;
+}
+#headDiv{
+    width: 85vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.intro{
+    width: 80vw;
+    color: white;
+    text-align: center;
+}
+#h1a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* padding-top: 100px; */
+}
+#h1b{
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#appButton{
+    width: 50vw;
+    height: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.h1input{
+    width: 15vw;
+    height: 7vh;
+    font-size: 15px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1px;
+    border: none;
+    font-weight: bold;
+    background-color: skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* header2 style */
+#header2{
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+#headDiv2{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#aboutUs{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: skyblue;
+    width: 100vw;
+    height: 10vh;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+#head2content{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#experiance{
+    width: 55vw;
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 1px;
+}
+#experianceH1{
+    width: 40vw;
+    font-size: 40px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#experianceH3{
+    width: 50vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#doctorModel{
+    width: 45vw;
+    height: 60vh;
+    border: none;
+}
+#contactUs{
+    width: 50vw;
+    height: 7vh;
+    font-size: 15px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1px;
+    border: none;
+    font-weight: bold;
+    background-color: skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* header3 style  */
+#header3{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#headDiv3{
+    width: 98vw;
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    row-gap: 1px;
+}
+#someFacts{
+    text-align: center;
+    width: 90vw;
+    color: skyblue;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#hereAre{
+    text-align: center;
+    width: 90vw;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#since{
+    text-align: center;
+    width: 75vw;
+    height: 2vh;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#callFor{
+    text-align: center;
+    width: 90vw;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#number{
+    text-align: center;
+    width: 90vw;
+    height: 10vh;
+    color: skyblue;
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#rating{
+    width: 90vw;
+    height: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#patientsRating,#surgeriesRating,#awardsRating{
+    width: 16vw;
+    height: 14vh;
+    background-color: skyblue;
+    border: 1px dotted black;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: all 0.5s;
+}
+#patientsRating{
+    background-color: skyblue;
+}
+#surgeriesRating{
+    background-color: red;
+}
+#awardsRating{
+    background-color: green;
+}
+#patientsRating:hover{
+    border-radius: 10px;   
+    background-color: white;
+}
+#surgeriesRating:hover{
+    border-radius: 10px;
+    background-color: white;   
+}
+#awardsRating:hover{
+    border-radius: 10px;   
+    background-color: white;
+}
+div>h5{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.imgRating{
+    width: 2vw;
+}
+
+/* header4 style  */
+#header4{
+    width: 100vw;
+    height: 180vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#headDiv4{
+    width: 98vw;
+    height: 178vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+#ourService{
+    color: skyblue;
+    font-size: 30px;
+    text-align: center;
+}
+#exploreOur{
+    font-size: 40px;
+    text-align: center;
+}
+#card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    row-gap: 50px;
+    column-gap: 10px;
+}
+.serviceCard{
+    width: 30vw;
+    height: 70vh;
+    background-color: rgb(220, 243, 253);
+    border: 2px  solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.imgCard{
+    width: 26vw;
+}
+div>h4{
+    text-align: center;
+    width: 24vw;
+    font-size: 18px;
+    font-weight: 2;
+}
+.readMore{
+    width: 10vw;
+    height: 7vh;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: skyblue;
+    border: none;
+    border-radius: 100px;
+}
+
+/* header5 style  */
+#header5{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: blueviolet; */
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+}
+#header5heading{
+    width: 45vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: pink; */
+}
+#header5div1{
+    width: 50vw;
+    height: 100vh;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: end;
+}
+.featureDivision{
+    width: 50vw;
+    height: 25vh;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.featureDiv2{
+    width: 40vw;
+    height: 15vh;
+    /* background-color: rebeccapurple; */
+}
+.featureDivImage{
+    width: 7vw;
+    height: 9vh;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: flex-end; */
+}
+#header5div2{
+    width: 50vw;
+    height: 98vh;
+    /* background-color: burlywood; */
+    display: flex;
+}
+
+
+/* header6 css */
+#header6{
+    width: 100vw;
+    height: 90vh;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#header6heading{
+    width: 90vw;
+    height: 10vh;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#priveDivision{
+    width: 90vw;
+    height: 60vh;
+    /* background-color: pink; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    align-items: center;
+}
+.priceDiv{
+    width: 25vw;
+    height: 55vh;
+    /* background-color: red; */
+    box-shadow: 1px 1px 100px rgb(161, 213, 234),-1px -1px 50px rgb(156, 211, 233);
+}
+.priceDivHead{
+    width: 25vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    /* background-color: yellow; */
+    justify-content: center;
+    align-items: center;
+}
+.priceDivContent{
+    /* background-color: skyblue; */
+    width: 17vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+div>ul{
+    /* background-color: gray; */
+    width: 13vw;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 2vw;
+    justify-content: center;
+    align-content: start;
+}
+ul>li{
+    list-style: none;
+}
+
+/* header7 css */
+#header7{
+    width: 100vw;
+    height: 90vh;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+}
+#header7>div{
+    width: 48vw;
+    height: 75vh;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header7Div1{
+    width: 40vw;
+    height: 50vh;
+    background-color: rgb(170, 247, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#headerForm{
+    width: 38vw;
+    height: 40vh;
+    /* background-color: pink; */
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.userData{
+    width: 18vw;
+    height: 6.5vh;
+    border: none;
+    text-align: center;
+}
+#note{
+    width: 36.5vw;
+    height: 7.5vh;
+    border: none;
+    text-align: center;
+}
+#noteSubmit{
+    width: 36.5vw;
+    height: 7vh;
+    border: none;
+    background-color: rgb(89, 238, 238);
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: white;
+}
+#header7Div2{
+    width: 40vw;
+    height: 55vh;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    row-gap: 4vh;
+}
+#header7Div2>div{
+    width: 40vw;
+    height: 12vh;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: space-evenly;
+}
+#header7Div2Icon{
+    width: 6vw;
+    height: 12vh;
+    background-color: aqua;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header7Div2Icon>img{
+    width: 4vw;
+    height: 8vh;
+}
+#header7Div2Contact{
+    width: 32vw;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+
+/* header8 css */
+#header8{
+    width: 100vw;
+    height: 70vh;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#header8Div1{
+    width: 80vw;
+    height: 50vh;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.team{
+    width: 16vw;
+    height: 45vh;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    box-shadow: 0px 0px 80px skyblue;
+}
+#header8Div2{
+    width: 80vw;
+    height: 13vh;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.teamDiv{
+    width: 15vw;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: skyblue; */
+    padding-top: 15px;
+}
+.team>div>img{
+    width: 13vw;
+}
+
+/* header9 css */
+#header9{
+    width: 100vw;
+    height: 90vh;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#header9Div1{
+    width: 80vw;
+    height: 50vh;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.test{
+    width: 26vw;
+    height: 40vh;
+    /* background-color: skyblue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3px;
+}
+#header9Div2{
+    width: 80vw;
+    height: 13vh;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.testImg{
+    border-radius: 100px;
+}
+.testDiv{
+    width: 25vw;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* background-color: pink; */
+    padding-top: 15px;
+}
+.testDiv>div{
+    width: 23vw;
+    height: 15vh;
+    /* background-color: red; */
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+} 
+
+
+/* footer css */
+#footer{
+    width: 100vw;
+    height: 65vh;
+    background-image: linear-gradient(rgb(4, 12, 167),rgb(12, 130, 177));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#footerDiv1{
+    width: 98vw;
+    height: 50vh;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.foot{
+    width: 20vw;
+    height: 40vh;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.foot1Img{
+    width: 1vw;
+}
+#foot1Div>img{
+    width: 2.2vw;
+    border: 2px solid white;
+    border-radius: 100px;
+}
+hr{
+    width: 90vw;
+}
+#footerDiv2{
+    width: 98vw;
+    height: 8vh;
+    /* background-color: yellowgreen; */
+}
+.foot>h3{
+    color: white;
+}
+#signUpForm{
+    width: 15vw;
+    height: 4vh;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+}
+#footerDiv2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footerDiv2>img{
+    width: 1.2vw;
+}
